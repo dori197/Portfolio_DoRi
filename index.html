@@ -1,124 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio of Ri</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio of Ri</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        </head>
 
-    <body>
-      <!--ctrl + shift + P-->
-        <div id="particles-js"></div>
-        <div class="container">
-            <header>
-                <div class="logo">DORI</div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="index.html">About</a>
-                        </li>
-                        <li>
-                            <a href="index.html">Project</a>
-                        </li>
-                        <li>
-                            <a href="index.html">Blog</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div>
-                    <button class="button"><span class="contact">Contact Me</span>
-                        <i class="fa-solid fa-phone-flip"></i>
-                    </button>
-                    <div class="bar"><i class="fa-solid fa-bars"></i></div>
-                    <!--only show when the screen is 900px-->
-                </div>
-            </header>
-            
-            <main>
-                <div class="content">
-                    <h1>I'm <span>RI</span></h1>
-                    <p>Front-end Developer</p>
-                    <p>Star Guide for Beginner Designers</p>
-                    <div class="button_wrapper">
-                        <button class="button start">
-                            <i class="fa-solid fa-rocket"></i>
-                            Let's Start
-                        </button>
-                        <button class="button readmore">
-                            <i class="fa-solid fa-book"></i>
-                            Read More
-                        </button>
-                        <div class="card">
-                            <button class="button card_one">
-                                <i class="icon fa-solid fa-palette"></i>
-                                <h3>Design Tools</h3>
-                                <h4>blalalalaablalalalaa</h4>
+        <body>
+        <!--ctrl + shift + P-->
+            <div id="particles-js"></div>
+            <div class="container">
+                <header>
+                    <div class="logo">DORI</div>
+                    <nav id="mobileNav">
+                        <ul class="nav_list">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="index.html">About</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Project</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-buttons">
+                        <button class="button"><span class="contact">Contact Me</span><i class="fa-solid fa-phone-flip"></i></button>
+                        <div class="bar" id="menuToggle">
+                          <i class="fa-solid fa-bars" id="barIcon"></i>
+                          <i class="fa-solid fa-xmark" id="closeIcon"></i>
+                        </div>
+                      </div>
+                </header>
+                
+                <main>
+                    <div class="content">
+                        <h1>I'm <span>RI</span></h1>
+                        <p>Front-end Developer</p>
+                        <p>Star Guide for Beginner Designers</p>
+                        <div class="button_wrapper">
+                            <button class="button start">
+                                <i class="fa-solid fa-rocket"></i>
+                                Let's Start
                             </button>
-                            <button class="button card_two">
-                                <i class="icon fa-solid fa-code"></i>
-                                <h3>Coding</h3>
-                                <h4>blalalalaablalalalaa</h4>
+                            <button class="button readmore">
+                                <i class="fa-solid fa-book"></i>
+                                Read More
                             </button>
-                            <button class="button card_three">
-                                <i class="icon fa-solid fa-users-between-lines"></i>
-                                <h3>Community</h3>
-                                <h4>blalalalaablalalalaa</h4>
-                            </button>
+                            <div class="card">
+                                <button class="button card_one">
+                                    <i class="icon fa-solid fa-palette"></i>
+                                    <h3>Design Tools</h3>
+                                    <h4>blalalalaablalalalaa</h4>
+                                </button>
+                                <button class="button card_two">
+                                    <i class="icon fa-solid fa-code"></i>
+                                    <h3>Coding</h3>
+                                    <h4>blalalalaablalalalaa</h4>
+                                </button>
+                                <button class="button card_three">
+                                    <i class="icon fa-solid fa-users-between-lines"></i>
+                                    <h3>Community</h3>
+                                    <h4>blalalalaablalalalaa</h4>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="image_container">
-                    <img src="./butterfly-removebg-preview.png" alt="Butterfly" class="butterfly">
-                </div>
+                    <div class="image_container">
+                        <img src="./butterfly-removebg-preview.png" alt="Butterfly" class="butterfly">
+                    </div>
 
-            </main>
-            <div>
-                <hr class="line">
-            </div>
-            <div class="social_media">
-                <nav>
-                    <ul class="social_media_list">
-                        <li>
-                            <a href="https://www.facebook.com/thien.truong.324552/">
-                                <button class="button facebook">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/_ngthtruog19/">
-                                <button class="button insta">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </button>
-                            </a>    
-                        </li>
-                        <li>
-                            <a href="">
-                                <button class="button twit">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <button class="button linkd">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </button>
-                            </a>
-                        </li>        
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer">
-                <p>© 2025 DoRi. All rights reserved.
-                </p>
-        </div>
-      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script src="./app.js"></script>
-    </body>
-</html>
+                </main>
+                <div>
+                    <hr class="line">
+                </div>
+                <div class="social_media">
+                    <nav>
+                        <ul class="social_media_list">
+                            <li>
+                                <a href="https://www.facebook.com/thien.truong.324552/">
+                                    <button class="button facebook">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </button>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_ngthtruog19/">
+                                    <button class="button insta">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </button>
+                                </a>    
+                            </li>
+                            <li>
+                                <a href="">
+                                    <button class="button twit">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </button>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <button class="button linkd">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </button>
+                                </a>
+                            </li>        
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer">
+                    <p>© 2025 DoRi. All rights reserved.
+                    </p>
+                </div>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="./app.js"></script>
+        <script src="./index.js"></script>
+        </body>
+    </html>

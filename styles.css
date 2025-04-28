@@ -50,6 +50,11 @@ ul a{
     text-decoration: none;
     color:white;
 }
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
 .button{
     padding: 12px 25px;
     border-radius: 50px;
@@ -276,13 +281,36 @@ main{
      }
 }*/
 
-@media (max-width: 900px) {
-    .container header nav,
+@media (max-width: 768px) {
+    /*.container header nav,*/
     .container header .button {
         display: none;
     }
-    .bar {
+    header nav{
+        position:fixed;
+        right: -100%;
+        top: 0;
+        width: 50%;
+        height: 100vh;
+        padding: 20px;
+        background: rgba(79, 74, 79, 0.671);
+        transition: all 0.5s ease;
+        z-index: 99;
+    }
+    #mobileNav.active {
+        right: 0;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 40px;
+    }
+    nav ul a{
+        color:#adecec
+    }
+   .bar {
         display: block;
+        position:relative;
+        z-index: 100;
     }
     main{
         flex-wrap: wrap-reverse;
@@ -292,6 +320,7 @@ main{
     .content{
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 }
 
